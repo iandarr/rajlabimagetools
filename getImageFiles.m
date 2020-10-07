@@ -21,7 +21,8 @@ function [foundChannels,fileNums,imgExts] = getImageFiles(dirPath,numFilter)
 
     % Find a channel we can use for preview of FISH img data, searched 
     % in the order listed below
-    channels = {'alexa','cy','gfp','nir','tmr'};
+    %channels = {'alexa','cy','gfp','nir','tmr'};
+    channels = {'alexa','cy','gfp','nir','tmr','alexaa','alexab','alexac','tmra','tmrb','tmrc','cya','cyb','cyc','cyd'};
     foundChannels = {};
     RNAchannel = '';
     fileNums = [];
